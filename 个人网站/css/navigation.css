@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+body{font-size: 12px;font-family:"微软雅黑";margin: 0;color: #000;}
+*{padding:0;margin:0;}
+li,ul{list-style: none;}
+a{color: #000;text-decoration: none;}
+a:hover{color: #CE2626;text-decoration: none;}
+img{border:none;}
+.font14{font-size: 14px;font-weight: 700;}
+.font16{font-size: 16px;font-weight: 700;}
+.clear{clear: both;}
+.left{margin-left: 30px;}
+.right_arrow{background: url(../image/arrow_r.jpg)
+	no-repeat;width: 20px;height: 20px;display: inline-block;float: right;margin-top: 5px;}
+.menu{width: 220px;float: left;border: 1px solid #E5E4E1;margin-top: 20px;}
+.menu li{float:left;width:220px;border-bottom:1px solid #E5E4E1;height:40px;
+         line-height:40px;background:#FAFAFA;font-size:15px;text-align:left;}
+.menu li .title{height: 40px;background: #E5E4E1;font-size: 15px;
+text-indent: 15px;text-align: left;width:100%;line-height: 40px;
+display: inline-block;}
+.red_dot{font-size: 25px;margin-right: 10px;width: 8px;height: 8px;
+display: inline-block;background: url(../image/red_dot.gif)
+no-repeat;margin-left: 10px;}
+.lefttop{background-color:#E5E4E1;height: 40px;color: #000;font-size: 16px;line-height: 40px;font-family: "微软雅黑"}
+.lefttop span{margin-left: 5px;margin-right: 5px; margin-top: 10px;width: 20px;height: 20px;float: left;background: url(../image/icon1.jpg);}

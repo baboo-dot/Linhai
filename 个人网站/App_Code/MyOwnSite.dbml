@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MyOwnSite" Class="MyOwnSiteDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\MyOwnSite.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="MyOwnSiteConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AdminInfo" Member="AdminInfo">
+    <Type Name="AdminInfo">
+      <Column Name="AdminName" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="mailAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="phoneNumber" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Food" Member="Food">
+    <Type Name="Food">
+      <Column Name="FoodId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ListPrice" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Place" Member="Place">
+    <Type Name="Place">
+      <Column Name="name" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="opentime" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="listprice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="unitcost" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserInfo" Member="UserInfo">
+    <Type Name="UserInfo">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="MailAddr" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Tel" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

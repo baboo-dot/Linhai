@@ -1,0 +1,108 @@
+﻿body{
+    margin:0;
+}
+.auto-style1 {
+    height: 42px;
+}
+
+.auto-style2 {
+    width: 100%;
+    height: 42px;
+}
+
+.auto-style3 {
+    height: 40px;
+    width: 185px;
+}
+
+.auto-style4 {
+    margin-left: 197px;
+    width: 597px;
+}
+
+.auto-style5 {
+    width: 844px;
+    margin-left: 197px;
+}
+
+.auto-style8 {
+    width: 926px;
+    margin-left: 350px;
+    height: 130px;
+}
+
+.auto-style9 {
+    height: 27px;
+    margin-left: 25px;
+}
+
+.auto-style10 {
+    height: 30px;
+    margin-left: 88px;
+}
+
+.div1 {
+    display: inline-block;
+}
+
+
+.orange {
+    font-weight: 700;
+    color: #f60
+}
+
+.orange2 {
+    font-weight: 700;
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ce2626;
+    text-decoration: none
+}
+
+.floatl {
+    float: left
+}
+
+.floatr {
+    float: right
+}
+
+.shopcart {
+    background: url(../image/shoppingcart.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    float: left;
+    margin: 5px 5px 0 0
+}
+
+.top_bg {
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 30px;
+    background: #f7f7f7;
+    height: 30px
+}
+
+.top_content {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.droparrow {
+    position: relative;
+    border: 1px solid transparent;
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    padding-left: 5px;
+    z-index: 1000
+}
+
